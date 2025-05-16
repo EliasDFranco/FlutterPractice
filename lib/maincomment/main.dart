@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
+import 'package:flutterpractice/layouts/column.dart';
 
 void main() {
   runApp(const MyApp()); // Función Principal de nuestra App
@@ -77,10 +78,10 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: Center(
+      body: ejemploColumna(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: Column(
+        child: (
           // Column is also a layout widget. It takes a list of children and
           // arranges them vertically. By default, it sizes itself to fit its
           // children horizontally, and tries to be as tall as its parent.
@@ -115,3 +116,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+*/
