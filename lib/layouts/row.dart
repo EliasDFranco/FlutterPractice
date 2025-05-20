@@ -22,7 +22,7 @@ class EjemploRow extends StatelessWidget {
             Text("Esto es una row fila 3"),
             Text("Esto es una row fila 4"),
             Text("Esto es una row fila 5"),
-            Text("Esto es una row fila 6"),
+            Expanded(child: Text("Esto es una row fila 6")),
           ],
         ),
       ),
@@ -137,3 +137,28 @@ Row(
 | Ideal para...          | Espaciado o limitar tamaño        | Estilizar un widget (fondo, borde)  |
 
 */
+
+/*
++-------------------------------------------------+
+|                  Spacer()                       |
++-------------------------------------------------+
+
+En Flutter, un Spacer es un widget utilizado para ocupar espacio flexible dentro de un Row, Column o Flex,
+empujando otros widgets hacia los extremos o creando separación entre ellos.
+
+¿Cómo funciona Spacer?
+  Spacer utiliza un Flexible por dentro para ocupar el espacio disponible según un factor (flex).
+  Es útil cuando querés distribuir widgets de manera proporcional.
+
+*/
+
+/*
++-------------------------------------------------+
+|                 EXPANDED                        |
++-------------------------------------------------+
+
+¿Qué hace Expanded?
+  Expanded expande un widget hijo para que ocupe el espacio disponible dentro de un layout flexible (como Row o Column).
+  También se puede controlar con el parámetro flex.
+*/
+
