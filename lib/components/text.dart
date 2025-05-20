@@ -54,7 +54,7 @@ class EjemploText extends StatelessWidget {
 
 /*
 +-------------------------------------------------+
-|              Documentación                   |
+|              Documentación Text                  |
 +-------------------------------------------------+
 
 import 'package:flutter/material.dart';
