@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterpractice/components/Icon.dart';
 import 'package:flutterpractice/components/Image.dart';
 import 'package:flutterpractice/components/textField.dart';
 import 'package:flutterpractice/layouts/column.dart';
@@ -22,8 +23,8 @@ class MainApp extends StatelessWidget {
           IconButton(onPressed: () {}, icon: Icon(Icons.movie_filter_outlined)),
         ],
       ),
-      backgroundColor: Colors.orange,
-      body: TextFieldEjemplo(),
+      backgroundColor: Colors.cyanAccent,
+      body: MiprimerIcono(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(Icons.push_pin),
