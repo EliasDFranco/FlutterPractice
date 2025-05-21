@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterpractice/components/button.dart';
 import 'package:flutterpractice/components/text.dart';
 import 'package:flutterpractice/components/textField.dart';
 import 'package:flutterpractice/layouts/column.dart';
@@ -15,7 +16,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
         home: Scaffold(
-      body: TextFieldEjemplo(),
+      body: PrimerBoton(),
     )
     );
   }
