@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterpractice/components/Image.dart';
+import 'package:flutterpractice/components/textField.dart';
+import 'package:flutterpractice/layouts/column.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,10 +12,22 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
         home: Scaffold(
-      body: PrimeraImagen(),
-    )
-    );
+      appBar: AppBar(
+        title: Text("Mi super app"),
+        backgroundColor: Colors.lightBlueAccent,
+        foregroundColor: Colors.white,
+        actions: [
+          IconButton(onPressed: () {}, icon: Icon(Icons.movie_filter_outlined)),
+        ],
+      ),
+      backgroundColor: Colors.orange,
+      body: TextFieldEjemplo(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(Icons.push_pin),
+      ),
+    ));
   }
 }
