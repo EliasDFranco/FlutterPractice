@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterpractice/components/Icon.dart';
 import 'package:flutterpractice/components/Image.dart';
+import 'package:flutterpractice/components/Typography.dart';
 import 'package:flutterpractice/components/textField.dart';
 import 'package:flutterpractice/layouts/column.dart';
 
@@ -24,7 +25,7 @@ class MainApp extends StatelessWidget {
         ],
       ),
       backgroundColor: Colors.cyanAccent,
-      body: MiprimerIcono(),
+      body: Tipografias(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(Icons.push_pin),
